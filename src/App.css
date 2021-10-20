@@ -1,38 +1,98 @@
 .App {
-  text-align: center;
+  background-color: yellow;
+  display: fixed;
+  resize: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.eyeR {
+  background-color: black;
+  display: fixed;
+  position: absolute;
+  border: 5px solid black;
+  top: 20vh;
+  left: 50vw;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  resize: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.eyeL {
+  background-color: yellow;
+  display: fixed;
+  position: absolute;
+  top: 27vh;
+  left: 30vw;
+  border-radius: 50%;
+  height: 100px;
+  width: 140px;
+  box-shadow: -10px 20px 0 -15px black;
+  /* transform: translate(-50%, -50%); */
+  transform: rotate(0.45turn);
+  resize: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nose {
+  background-color: black;
+  display: fixed;
+  position: absolute;
+  border: 10px solid black;
+  top: 35vh;
+  left: 42.5vw;
+  border-radius: 50%;
+  height: 1px;
+  width: 29px;
+  resize: none;
 }
 
-.App-link {
-  color: #61dafb;
+.cheeksL {
+  background-color: darkorange;
+  display: fixed;
+  position: absolute;
+  top: 40vh;
+  left: 27vw;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  resize: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cheeksR {
+  background-color: darkorange;
+  display: fixed;
+  position: absolute;
+  top: 40vh;
+  left: 55vw;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  resize: none;
+}
+
+.mouth {
+  background-color: yellow;
+  display: fixed;
+  position: absolute;
+  top: 42vh;
+  left: 40vw;
+  border-radius: 50%;
+  border-bottom: yellow;
+  height: 100px;
+  width: 200px;
+  box-shadow: -10px 20px 0 -15px black;
+  transform: rotate(0.99turn);
+  resize: none;
+}
+
+.inner-eye {
+  background-color: white;
+  display: fixed;
+  position: absolute;
+  top: 23vh;
+  left: 51vw;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  z-index: 1;
+  resize: none;
 }
